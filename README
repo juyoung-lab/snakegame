@@ -1,0 +1,44 @@
+/*
+Juyoung Kim
+Imaad Khalid
+
+CMPUT 275: Winter 2020
+
+Final Project: Snake Game
+*/
+
+INCLUDED FILES:
+	* circQueue.cpp
+	* circQueue.h
+	* constants.h
+	* game.cpp
+	* game.h
+	* joystick.cpp
+	* joystick.h
+	* main.cpp
+	* main.h
+	* Makefile
+	* README
+
+WIRING INSTRUCTIONS:
+	1. Unpower the Arduino and mount the TFT Display
+	2. Connect the joystick to the breadboard
+	3. Wire GND and 5V to the blue and red line on the breadboard respectively
+	4. Connect Analog Pins A8 and A9 to the VRy and VRx joystick pins respectively
+	5. Wire Digital Pin 53 to the SW joystick pin
+	6. Wire GND and 5V pin of the joystick to the blue and red line on the breadboard respectively
+	
+RUNNING INSTRUCTIONS:
+	1. After wiring properly, switch into the proper directory on the terminal
+		The directory will be whatever (new) folder you choose to unzip the program into
+	2. Connect the Arduino to the computer and ensure that it is connected and detected
+	3. Afterwards, call <make> and <make upload> to send the program to the Arduino
+	4. The game is now ready to play
+	
+GAME INSTRUCTIONS:
+	1. Once loaded in, a pink snake will be seen moving around the screen. This is your character which is controlled by joystick
+	2. The challenge of the game is to move around without leaving the bounds (black lines) or running into yourself
+	3. To grow you need to move into the blue fruits on the screen
+	4. As of now, the highest score possible is 255
+	5. Upon beating the game or failing, your score will be displayed a final time before the game restarts
+	6. Your score as you play is also visible on the top right of the screen
