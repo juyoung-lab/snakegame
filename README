@@ -1,11 +1,10 @@
-/*
 Juyoung Kim
 Imaad Khalid
 
 CMPUT 275: Winter 2020
 
 Final Project: Snake Game
-*/
+
 
 INCLUDED FILES:
 	* circQueue.cpp
